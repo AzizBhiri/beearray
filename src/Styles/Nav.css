@@ -10,7 +10,7 @@
     height: 100px;
 }
 
-.text {
+.textNav {
     color: #1d70b7;
     font-family: 'Dosis', sans-serif;
     font-size: 28px;
@@ -18,7 +18,7 @@
     display: flex;;
 }
 
-.text > p, .dropbtn {
+.textNav > p, .dropbtn {
     padding: 3vw;
 }
 
@@ -35,9 +35,9 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #eee;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
     z-index: 1;
 }
 .dropdown-content a {
@@ -63,10 +63,12 @@
 @media only screen and (max-width: 700px) {
     .fa-bars {
         display: block;
+        margin-bottom: 10px;
+        margin-right: 8px;
     }
-    .text {
+    .textNav {
       display: none;
     }
-  }
+}
 
 

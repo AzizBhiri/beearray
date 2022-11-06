@@ -20,6 +20,22 @@ h1 {
     -webkit-animation-iteration-count: infinite;
 }
 
+
+h1:hover {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+p {
+    transition: transform 1s;
+    font-size: 25px;
+}
+
+p:hover {
+    transform: scale(1.02);
+}
+
 @keyframes bounce {
     0%,
     100%,
@@ -47,17 +63,9 @@ h1 {
     }
 }
 
-h1:hover {
-    cursor: pointer;
-    animation-name: bounce;
-    -moz-animation-name: bounce;
-}
-
-p {
-    transition: transform 1s;
-    font-size: 25px;
-}
-
-p:hover {
-    transform: scale(1.02);
+@media only screen and (max-width: 700px) {
+    p {
+        transition: transform 1s;
+        font-size: 15px;
+    }
 }
