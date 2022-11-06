@@ -29,9 +29,9 @@ function Nav() {
         <p className="dropbtn">Nouveautés</p>
         <p className="dropbtn">Contact</p>
       </div>
-      <div className="menu">
+      {/* <div className="menu">
         <i className="fa-solid fa-bars"></i>
-      </div>
+      </div> */}
     </div>
   );
 }
